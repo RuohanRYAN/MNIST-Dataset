@@ -5,14 +5,12 @@ MINIST dataset is used during training.
 
 
 The model implements a multinomial logistic regression with softmax activation function and cross entropy loss with l2 regularizor. 
-The training process implemented stochastic gradient descent with nesterov momentum, and adams optimization. 
-
-
 
 The training process implements sequential sampling mini-batch gradient descent with Nesterov Momentum and Adams Optimizer. 
 
 
-To train the model, run the main.py file in Python. This will load the data, train the model and outputs three plots for visualization. The first plot shows the training error between training with Momentum and Adams optimizer. The second plot shows the testing error between training with Momentum and Adams optimizer. The third plot shows the training loss between training with Momentum and Adams optimizer. 
+To train the model, run the main.py file in Python. This will load the data, train the model and outputs three plots for visualization. 
+The first plot shows the training error between training with Momentum and Adams optimizer. The second plot shows the testing error between training with Momentum and Adams optimizer. The third plot shows the training loss between training with Momentum and Adams optimizer. 
 
 
 
